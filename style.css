@@ -3,47 +3,71 @@ html, body{
     width: 100%;
     display: flex;
     justify-content: center;
-    font-family: 'Roboto', sans-serif;
+    align-items:center;
+    font-family: 'Inter';
 }
 h1{
-    color: #fff;
+    color: #92AFFF;
+    background-color: #d9eee7;
+    border: solid 2px;
+    border-radius: 10px;
     font-family: Agbalumo;
     font-weight: 100;
     font-size: 2em;
     text-align: center;
+    padding: 0px 15px;
 }
-header{
-    display: flex;
-    flex-direction: column;
+h1:hover{
+    color: #d9eee7;
+    background-color: #2a5b4f;
+    border: solid 2px #d9eee7;
 }
 article{
-display: flex;
-flex-direction: column;
-align-items: center;
+max-width: 300px;
 background-color: #59a891;
-text-align: center;
+padding:1em;
 }
 img{
-    display: flex;
     border: solid 2px #92AFFF;
     border-radius: 10px;
     max-width: 200px;
 }
-footer{
-    display: flex;
-    justify-content: center;
-}
 button{
-    color: #fff;
+    color: #d9eee7;
     background-color: #92AFFF;
     border: solid 2px #317060;
-    border-radius: 5px;
+    border-radius: 12px;
     font-size: larger;
-    padding: 15px 30px 15px 30px;
+    padding: 10px 15px;
 }
 p{
-    display: flex;
-    justify-content: space-around;
-    color: #fff;
-    font-size: 1.5em
+    text-align: center;
+    color: #d9eee7;
+    font-size: 1em;
+    line-height:1.5em;
+    text-transform: uppercase;
+}
+footer{
+display: flex;
+justify-content: space-around;
+}
+header{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+button:first-child{
+    color: #317060;
+    background-color: #59a891;
+    border: solid 2px #92AFFF;
+}
+button:first-child:hover{
+    color: #d9eee7;
+    background-color: #2a5b4f;
+    border: solid 2px #d9eee7;
+}
+button:nth-child(2):hover{
+    color: #2a5b4f;
+    background-color: #d9eee7;
+    border: solid 2px #2a5b4f;
 }
